@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "32850364899",
+    "project_id": "meetmee-2fb43",
+    "storage_bucket": "meetmee-2fb43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32850364899:android:ad9c94bec2c68cd5d7b8d6",
+        "android_client_info": {
+          "package_name": "com.example.meetmee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32850364899-hbccj18rrqcgd9s4so059agfk4o8m1nl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-ldLVA65n3VYTSz2rDtQpw6NodiQkgsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32850364899-hbccj18rrqcgd9s4so059agfk4o8m1nl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

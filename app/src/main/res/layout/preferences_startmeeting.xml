@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Settings"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+            <Switch
+                android:id="@+id/videoFlag_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:checked="true"
+                android:padding="10dp"
+                android:switchMinWidth="56dp"
+                android:text="While joining Video?       "
+                android:textOff="No"
+                android:textOn="Yes"/>/>
+
+            <Switch
+                android:id="@+id/audioFlag_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:checked="true"
+                android:padding="10dp"
+                android:switchMinWidth="56dp"
+                android:text="While joining Audio?       "
+                android:textOff="No"
+                android:textOn="Yes"/>/>
+
+            <EditText
+                android:id="@+id/meetingSubject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Meeting Subject"
+                android:inputType="textPersonName" />
+
+
+        </LinearLayout>
+    </LinearLayout>
